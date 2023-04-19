@@ -39,7 +39,7 @@ diamondsG=new Group();
 jwelleryG=new Group();
 swordGroup=new Group();
 
-gameOver = createSprite(width-200, height-300, 20, 20)
+gameOver = createSprite(width/2, height/2, 20, 20)
 gameOver.addAnimation("gameover", endImg)
 gameOver.visible = false
 
