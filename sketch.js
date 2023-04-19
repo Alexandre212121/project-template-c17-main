@@ -78,7 +78,7 @@ function draw() {
       jwelleryG.destroyEach();
             //aumente a treasureCollection para 150
             treasureCollection=treasureCollection+150
-          }
+          } 
     else{
       if(swordGroup.isTouching(boy)) {
 //Mude o gameState (estado do jogo) para End
